@@ -38,5 +38,8 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="onAddItem" />
+        android:onClick="onAddItem"
+        android:foreground="#2d32f8"
+        android:contextClickable="false"
+        android:textColor="#ffffff" />
 </RelativeLayout>
