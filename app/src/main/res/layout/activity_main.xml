@@ -33,13 +33,13 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add Item"
+        android:text="@string/add_item"
         android:id="@+id/btnAddItem"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:onClick="onAddItem"
-        android:foreground="#2d32f8"
+        android:background="#2d32f8"
         android:contextClickable="false"
         android:textColor="#ffffff" />
 </RelativeLayout>
